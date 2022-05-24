@@ -21,5 +21,5 @@ export const toastMsg = (description, status) => ({
 export const devFrontendUrl = "http://localhost:3000/";
 export const devBackendUrl = "http://localhost:8000/";
 
-export const prodFrontendUrl = "https://youtubegang.netlify.app/";
-export const prodBackendUrl = "https://youtubegang.herokuapp.com/";
+export const prodFrontendUrl = "";
+export const prodBackendUrl = "";
