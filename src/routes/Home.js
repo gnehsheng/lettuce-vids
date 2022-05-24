@@ -18,10 +18,10 @@ function Home({ history }) {
     >
       <Flex>
         <Heading color="white" size="4xl">
-          Youtube
+          Lettuce
         </Heading>
         <Heading color="brand.400" size="4xl">
-          Gang
+          Vids
         </Heading>
       </Flex>
       <Button mt={3} colorScheme="brand" size="lg" onClick={createAndJoinRoom}>

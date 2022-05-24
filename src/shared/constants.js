@@ -22,4 +22,4 @@ export const devFrontendUrl = "http://localhost:3000/";
 export const devBackendUrl = "http://localhost:8000/";
 
 export const prodFrontendUrl = "https://lettuce-vids.netlify.app";
-export const prodBackendUrl = "https://lettuce-backend.herokuapp.com/";
+export const prodBackendUrl = "https://lettuce-backend.herokuapp.com";
