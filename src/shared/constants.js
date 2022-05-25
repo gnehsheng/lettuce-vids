@@ -1,5 +1,5 @@
 const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
-const BACKEND_APP = process.env.BACKEND_APP
+const BACKEND_APP = process.env.REACT_APP_BACKEND_APP;
 
 export const getVideosInfoURL = (searchInput) =>
   `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=24&q=${searchInput}&type=video&key=${YOUTUBE_API_KEY}`;
@@ -23,4 +23,4 @@ export const devFrontendUrl = "http://localhost:3000/";
 export const devBackendUrl = "http://localhost:8000/";
 
 export const prodFrontendUrl = "https://lettuce-vids.netlify.app/";
-export const prodBackendUrl = "https://youtubegang.herokuapp.com/";
+export const prodBackendUrl = BACKEND_APP;
